@@ -61,7 +61,7 @@ body::before {
   color: white;
   padding: 20px;
   font-size: 30px;
-  border: 2px solid white;
+  /* border: 2px solid white; */
   top: 50%;
   transform: translateY(-50%);
   cursor: pointer;
@@ -73,10 +73,13 @@ body::before {
 
 .left-arrow {
   left: calc(15vw - 68.25px);
-  border-right: none;
+  /* border-right: none; */
+  outline: none;
+  border: none;
 }
 
 .right-arrow {
   right: calc(15vw - 68.25px);
-  border-left: none;
+  /* border-left: none; */
+  border: none;
 }
